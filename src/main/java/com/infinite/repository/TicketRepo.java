@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.infinite.model.TicketPojo;
 
 
-@Repository
+@Repository //Responsible for database interactions
 public interface TicketRepo extends JpaRepository<TicketPojo, Long> {
 }
 
